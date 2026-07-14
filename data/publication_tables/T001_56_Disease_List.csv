@@ -1,0 +1,57 @@
+﻿Output ID,Phase,Disease ID,Disease,Blinded output ID,Human-updated DGQC,Expert-confirmed CD,Usable draft
+R1-OpenSAGE-anaemia,Stage 1,R1D01,Anaemia,G02_Anaemia.pdf,72.47,no,yes
+R1-OpenSAGE-anthrax,Stage 1,R1D02,Anthrax,G03_Anthrax.pdf,76.81,no,yes
+R1-OpenSAGE-burns,Stage 1,R1D03,Burns,G04_Burns.pdf,62.38,yes,no
+R1-OpenSAGE-cancer,Stage 1,R1D04,Cancer,G06_Cancer.pdf,58.83,yes,no
+R1-OpenSAGE-cardiovascular_disease,Stage 1,R1D05,Cardiovascular Disease,G07_Cardiovascular Disease.pdf,57.68,yes,no
+R1-OpenSAGE-chikungunya,Stage 1,R1D06,Chikungunya,G08_Chikungunya.pdf,80.15,no,yes
+R1-OpenSAGE-child_health,Stage 1,R1D07,Child Health (IMCI),G09_Child Health (IMCI).pdf,72.84,no,yes
+R1-OpenSAGE-dengue,Stage 1,R1D08,Dengue,G10_Dengue.pdf,82.37,no,yes
+R1-OpenSAGE-diabetes,Stage 1,R1D09,Diabetes,G11_Diabetes.pdf,64.05,yes,no
+R1-OpenSAGE-diphtheria,Stage 1,R1D10,Diphtheria,G12_Diphtheria.pdf,81.81,no,yes
+R1-OpenSAGE-dracunculiasis,Stage 1,R1D11,Dracunculiasis,G13_Dracunculiasis.pdf,70.38,no,yes
+R1-OpenSAGE-ebola,Stage 1,R1D12,Ebola,G14_Ebola.pdf,80.29,no,yes
+R1-OpenSAGE-echinococcosis,Stage 1,R1D13,Echinococcosis,G15_Echinococcosis.pdf,80.17,no,yes
+R1-OpenSAGE-fascioliasis,Stage 1,R1D14,Fascioliasis,G16_Fascioliasis.pdf,60.77,yes,no
+R1-OpenSAGE-filariasis,Stage 1,R1D15,Filariasis,G17_Filariasis.pdf,70.56,no,yes
+R1-OpenSAGE-hepatitis,Stage 1,R1D16,Hepatitis,G19_Hepatitis.pdf,75.93,no,yes
+R1-OpenSAGE-hypertension,Stage 1,R1D17,Hypertension,G20_Hypertension.pdf,82.08,no,yes
+R1-OpenSAGE-influenza,Stage 1,R1D18,Influenza,G22_Influenza.pdf,82.16,no,yes
+R1-OpenSAGE-injury,Stage 1,R1D19,Injury,G23_Injury.pdf,54.25,yes,no
+R1-OpenSAGE-leishmaniasis,Stage 1,R1D20,Leishmaniasis,G24_Leishmaniasis.pdf,74.19,no,yes
+R1-OpenSAGE-leprosy,Stage 1,R1D21,Leprosy,G25_Leprosy.pdf,79.42,no,yes
+R1-OpenSAGE-loa_loa,Stage 1,R1D22,Loa Loa,G26_Loa Loa.pdf,60.11,no,no
+R1-OpenSAGE-low_back_pain,Stage 1,R1D23,Low Back Pain,G27_Low Back Pain.pdf,83.43,no,yes
+R1-OpenSAGE-malnutrition,Stage 1,R1D24,Malnutrition,G29_Malnutrition.pdf,76.73,no,yes
+R1-OpenSAGE-marburg,Stage 1,R1D25,Marbug,G30_Marbug.pdf,70.40,no,yes
+R1-OpenSAGE-measles,Stage 1,R1D26,Measle,G32_Measle.pdf,70.40,no,yes
+R1-OpenSAGE-mpox,Stage 1,R1D27,Mpox,G35_Mpox.pdf,82.64,no,yes
+R1-OpenSAGE-newborn_neonatal_health,Stage 1,R1D28,Newborn_Neonatal Health,G36_Newborn_Neonatal Health.pdf,70.58,no,yes
+R1-OpenSAGE-obesity,Stage 1,R1D29,Obesity,G37_Obesity.pdf,74.94,no,yes
+R1-OpenSAGE-onchocerciasis,Stage 1,R1D30,Onchocerciasis,G38_Onchocerciasis.pdf,70.34,no,yes
+R1-OpenSAGE-pneumonia,Stage 1,R1D31,Pneumonia,G39_Pneumonia.pdf,79.03,no,yes
+R1-OpenSAGE-poisoning,Stage 1,R1D32,Poisoning,G40_Poisoning.pdf,62.39,yes,no
+R1-OpenSAGE-polio,Stage 1,R1D33,Polio,G41_Polio.pdf,72.09,no,yes
+R1-OpenSAGE-rubella,Stage 1,R1D34,Rubella,G42_Rubella.pdf,70.43,no,yes
+R1-OpenSAGE-sars,Stage 1,R1D35,SARS,G43_SARS.pdf,59.26,no,no
+R1-OpenSAGE-schistosomiasis,Stage 1,R1D36,Schistosomiasis,G44_Schistosomiasis.pdf,79.90,no,yes
+R1-OpenSAGE-sexually_transmitted_infections,Stage 1,R1D37,Sexually Transmitted Infections (STI),G45_Sexually Transmitted Infections (STI).pdf,77.44,no,yes
+R1-OpenSAGE-shigellosis,Stage 1,R1D38,Shigellosis,G46_Shigellosis.pdf,75.48,no,yes
+R1-OpenSAGE-snake_bite,Stage 1,R1D39,Snake Bite,G47_Snake Bite.pdf,70.09,no,yes
+R1-OpenSAGE-strongyloidiasis,Stage 1,R1D40,Strongyloidiasis,G48_Strongyloidiasis.pdf,74.80,no,yes
+R1-OpenSAGE-taeniosis_cysticercosis,Stage 1,R1D41,Taeniosis_Cysticercosis,G50_Taeniosis_Cysticercosis.pdf,79.57,no,yes
+R1-OpenSAGE-trachoma,Stage 1,R1D42,Trachoma,G51_Trachoma.pdf,68.99,no,no
+R1-OpenSAGE-trypanosomiasis,Stage 1,R1D43,Trypanosomiasis,G52_Trypanosomiasis.pdf,76.25,no,yes
+R1-OpenSAGE-tungiasis,Stage 1,R1D44,Tungiasis,G54_Tungiasis.pdf,65.26,yes,no
+R1-OpenSAGE-yellow_fever,Stage 1,R1D45,Yello Fever,G55_Yello Fever.pdf,80.14,no,yes
+R1-OpenSAGE-zika,Stage 1,R1D46,Zika,G56_Zika.pdf,79.39,no,yes
+R2-D01-方案03,Stage 2,D01,Abortion Care,D01-方案03,72.50,no,yes
+R2-D02-方案05,Stage 2,D02,COVID-19,D02-方案05,74.72,no,yes
+R2-D03-方案02,Stage 2,D03,HIV,D03-方案02,72.08,no,yes
+R2-D04-方案06,Stage 2,D04,Infertility,D04-方案06,74.10,no,yes
+R2-D05-方案04,Stage 2,D05,Malaria,D05-方案04,74.72,no,yes
+R2-D06-方案06,Stage 2,D06,Maternal Health,D06-方案06,64.65,no,no
+R2-D07-方案08,Stage 2,D07,Meningitis,D07-方案08,74.03,no,yes
+R2-D08-方案05,Stage 2,D08,Mental Health Disorders,D08-方案05,71.74,no,yes
+R2-D09-方案08,Stage 2,D09,Substance Use Disorders,D09-方案08,66.81,no,no
+R2-D10-方案07,Stage 2,D10,Tuberculosis,D10-方案07,72.50,no,yes

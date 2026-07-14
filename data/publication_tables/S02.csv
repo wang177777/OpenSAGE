@@ -1,0 +1,4 @@
+﻿Analysis set,Outputs,Raters,"ICC(2,k) (bootstrap 95% CI)",Gwet AC1 (bootstrap 95% CI)
+Stage 1 OpenSAGE 46,46,12,0.952 (0.928 to 0.966),0.799 (0.712 to 0.874)
+Stage 2 comparative 80,80,12,0.985 (0.979 to 0.989),0.898 (0.838 to 0.946)
+All 126 outputs,126,12,0.992 (0.990 to 0.993),0.824 (0.768 to 0.876)

@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the associated OpenSAGE-DGQC study."
+title: "OpenSAGE and DGQC: audited public reproducibility release"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Guoyong
+  - family-names: Jiang
+    given-names: Jiyue
+  - family-names: Zhang
+    given-names: Kaijun
+  - family-names: Chen
+    given-names: Yanyu
+  - family-names: Hong
+    given-names: Jundong
+  - family-names: Wang
+    given-names: Zhenyu
+  - family-names: Wu
+    given-names: Yuze
+  - family-names: Chen
+    given-names: Yuhan
+  - family-names: Bi
+    given-names: Hui
+  - family-names: Zheng
+    given-names: Cuifang
+  - family-names: Wang
+    given-names: Weixin
+  - family-names: King
+    given-names: Irwin
+  - family-names: Huang
+    given-names: Ying
+  - family-names: Li
+    given-names: Yu
+  - family-names: Yang
+    given-names: Xiaonan
+repository-code: "https://github.com/wang177777/OpenSAGE"
+url: "https://github.com/wang177777/OpenSAGE"
+date-released: 2026-07-14
+license: Apache-2.0

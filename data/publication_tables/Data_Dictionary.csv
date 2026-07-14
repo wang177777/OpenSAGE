@@ -1,0 +1,15 @@
+﻿Dataset,Variable,Definition,Release_Status
+output_level_126,output_id,Unique locked output identifier.,Definition only; source dataset is controlled and is not released in this public repository.
+output_level_126,phase,R1 non-comparative OpenSAGE or R2 matched comparison.,Definition only; source dataset is controlled and is not released in this public repository.
+output_level_126,blinded_output_id,Identifier presented in the blinded review package.,Definition only; source dataset is controlled and is not released in this public repository.
+output_level_126,true_model,Model/workflow identity merged after scoring and data lock.,Definition only; source dataset is controlled and is not released in this public repository.
+output_level_126,DGQC_raw_mean,Mean weighted DGQC score calculated from the 12 raw expert ratings.,Definition only; source dataset is controlled and is not released in this public repository.
+output_level_126,human_updated_DGQC,Main continuous endpoint: Stage 1 uses the formal rerating; Stage 2 OpenSAGE and baselines retain the locked human-updated/adjudication-adjusted values.,Definition only; source dataset is controlled and is not released in this public repository.
+output_level_126,expert_confirmed_CD,Strict dual-expert-confirmed critical-defect status.,Definition only; source dataset is controlled and is not released in this public repository.
+output_level_126,usable_human_updated,Human-updated DGQC >=70 and no strict expert-confirmed critical defect.,Definition only; source dataset is controlled and is not released in this public repository.
+rating_level_1512,rater_id,Anonymized reviewer identifier; identifiers and rating-level records are not released in the public dataset.,Definition only; source dataset is controlled and is not released in this public repository.
+rating_level_1512,any_CD_raw,Raw potential critical-defect rating; final locked input contains yes/no.,Definition only; source dataset is controlled and is not released in this public repository.
+rating_level_1512,DGQC_raw,Reviewer-level weighted score.,Definition only; source dataset is controlled and is not released in this public repository.
+rating_level_1512,D1_raw-D7_raw,Reviewer-level domain scores used for reliability analysis.,Definition only; source dataset is controlled and is not released in this public repository.
+output_manifest_126,sha256,SHA-256 digest of a final evaluated PDF in the controlled internal package; the PDF and manifest are not released in this public repository.,Definition only; source dataset is controlled and is not released in this public repository.
+raw_domain_summary,D1_raw-D7_raw,S12B and Supplementary Figure S1 use Stage 1 formal-rerating raw domains plus the original Stage 2 raw ratings; Stage 2 was not silently rerated.,Aggregate means released in S12B and Supplementary Data 3; rating-level records remain controlled.

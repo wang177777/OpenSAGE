@@ -1,0 +1,4 @@
+﻿Group,Any expert-confirmed CD,CD1,CD2,CD3,CD4,CD5,CD6,Interpretation
+OpenSAGE full set,8,7,0,0,8,1,0,"Failures concentrated in CD4 and CD1; no dual-expert-confirmed CD2, CD3 or CD6."
+Baseline comparative outputs,61,59,61,28,59,2,28,Failures broader and more frequent; subtype counts derive from dual-expert intersection counts minus OpenSAGE counts.
+All expert-confirmed outputs,69,66,61,28,67,3,28,Dual-expert intersection counts across adjudicated positive outputs.

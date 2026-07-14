@@ -1,0 +1,7 @@
+﻿Locked file or instrument term,Manuscript term,Interpretation
+human_updated_DGQC,adjudication-adjusted DGQC,Same final continuous endpoint; wording clarifies that adjustment followed mediator screening and senior adjudication.
+expert-review eligible / usable_human_updated,expert-review eligible draft,DGQC >=70 and no dual-adjudicator-confirmed critical defect; does not imply clinical release.
+expert_confirmed_CD,dual-adjudicator-confirmed critical defect,Strict main endpoint requiring both senior adjudicators to confirm a defect.
+baseline system,direct-generation comparator system,"Comparator generated directly without the OpenSAGE retrieval, reflection, and provenance workflow."
+raw_expert_mean,raw expert mean DGQC,Sensitivity endpoint calculated from the 12 initial expert ratings without adjudication adjustment.
+Stage 1 / Stage 2,Stage 1 / Stage 2,Reader-facing phase labels used consistently across the manuscript and supplementary material.

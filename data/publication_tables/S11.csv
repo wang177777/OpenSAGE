@@ -1,0 +1,10 @@
+﻿Item,n,Definition
+Stage 1 OpenSAGE outputs,46,Stage 1 OpenSAGE outputs represented by the formal rerating dataset
+Stage 2 OpenSAGE outputs,10,OpenSAGE outputs in matched comparative diseases
+Stage 2 direct-generation outputs,70,Seven baseline systems across 10 diseases
+Total blinded outputs,126,46 + 10 + 70
+OpenSAGE full evaluation set,56,Stage 1: 46 + Stage 2: 10 OpenSAGE outputs
+Comparative model evaluation set,80,10 diseases × 8 systems
+Expert reviewers,12,Same expert index structure; R1 scores use rerating workbooks
+Raw rating records,1512,552 rerated R1 records + 960 original R2 records
+Dual-expert adjudication cases,91,Safety endpoint retained from locked dual-expert adjudication
