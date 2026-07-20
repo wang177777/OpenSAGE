@@ -1,0 +1,8 @@
+﻿Item,Domain,Weight,Score_range,Anchor_1,Anchor_4,Anchor_7
+D1,WHO anchor identification and faithfulness,20,1-7,Wrong/missing anchor or material scope mismatch,"Partly correct anchor, material omissions or weak scope control","Correct current anchor, explicit scope and faithful interpretation"
+D2,Post-guideline evidence search and coverage,20,1-7,No credible update search or major evidence omitted,Partial search/coverage with meaningful gaps,"Transparent, current and sufficiently comprehensive update coverage"
+D3,Evidence appraisal and GRADE use,15,1-7,Unsupported certainty/strength or serious appraisal error,Basic appraisal with incomplete GRADE logic,"Consistent certainty, strength and limitations"
+D4,Validity of dynamic recommendation updating,20,1-7,Update contradicts evidence or overreaches,Mixed validity; some recommendations insufficiently linked,"Updates are evidence-consistent, bounded and actionable"
+D5,Transparency and traceability,10,1-7,Claims cannot be traced to sources,Partial traceability or inconsistent citations,Recommendation-level provenance is clear and auditable
+D6,Clarity and implementability,5,1-7,"Unclear, disorganized or not actionable",Generally understandable with implementation gaps,"Clear, structured and operationally useful"
+D7,Safety and non-hallucination,10,1-7,Material hallucination or unsafe advice,Minor inaccuracies/uncertainty handling weaknesses,No material hallucination; safety boundaries explicit

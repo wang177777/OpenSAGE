@@ -1,0 +1,5 @@
+﻿Contrast,n diseases,Mean difference,BCa 95% CI,Exact paired permutation P,t-based 95% CI,Paired t P,Asymptotic Wilcoxon P
+Final DGQC score: OpenSAGE vs direct GPT-5.5,10,19.54,11.08 to 28.55,0.00195,8.91 to 30.18,0.00246,0.00592
+Final DGQC score: OpenSAGE vs pooled direct-generation comparator,10,42.54,39.13 to 45.61,0.00195,38.60 to 46.48,1.55e-09,0.00592
+Reviewer-mean DGQC: OpenSAGE vs direct GPT-5.5,10,15.86,8.91 to 22.09,0.00195,7.75 to 23.98,0.00166,0.00592
+Reviewer-mean DGQC: OpenSAGE vs pooled direct-generation comparator,10,38.89,35.75 to 42.05,0.00195,35.04 to 42.74,2.82e-09,0.00592

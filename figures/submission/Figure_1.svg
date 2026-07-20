@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='518.74pt' height='249.45pt' viewBox='0 0 518.74 249.45'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw1MTguNzR8MC4wMHwyNDkuNDU='>
+    <rect x='0.00' y='0.00' width='518.74' height='249.45' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw1MTguNzR8MC4wMHwyNDkuNDU=)'>
+</g>
+<defs>
+  <clipPath id='cpNS45OHw1MTIuNzZ8NC45OHwyNDQuNDc='>
+    <rect x='5.98' y='4.98' width='506.78' height='239.49' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNS45OHw1MTIuNzZ8NC45OHwyNDQuNDc=)'>
+<line x1='91.49' y1='35.36' x2='117.20' y2='35.36' style='stroke-width: 0.90; stroke: #667085;' />
+<polygon points='111.80,38.48 117.20,35.36 111.80,32.24 ' style='stroke-width: 0.90; stroke: #667085; fill: #667085;' />
+<line x1='91.49' y1='131.56' x2='117.20' y2='131.56' style='stroke-width: 0.90; stroke: #667085;' />
+<polygon points='111.80,134.68 117.20,131.56 111.80,128.44 ' style='stroke-width: 0.90; stroke: #667085; fill: #667085;' />
+<line x1='201.14' y1='35.36' x2='235.24' y2='72.32' style='stroke-width: 0.90; stroke: #667085;' />
+<polygon points='229.28,70.47 235.24,72.32 233.87,66.24 ' style='stroke-width: 0.90; stroke: #667085; fill: #667085;' />
+<line x1='203.24' y1='131.56' x2='235.24' y2='94.60' style='stroke-width: 0.90; stroke: #667085;' />
+<polygon points='234.06,100.72 235.24,94.60 229.35,96.64 ' style='stroke-width: 0.90; stroke: #667085; fill: #667085;' />
+<line x1='313.41' y1='83.46' x2='335.96' y2='83.46' style='stroke-width: 0.90; stroke: #667085;' />
+<polygon points='330.56,86.58 335.96,83.46 330.56,80.34 ' style='stroke-width: 0.90; stroke: #667085; fill: #667085;' />
+<line x1='414.13' y1='83.46' x2='426.20' y2='83.46' style='stroke-width: 0.90; stroke: #667085;' />
+<polygon points='420.80,86.58 426.20,83.46 420.80,80.34 ' style='stroke-width: 0.90; stroke: #667085; fill: #667085;' />
+<rect x='11.49' y='17.13' width='76.07' height='36.45' style='stroke-width: 1.17; stroke: #67A9CF; stroke-linecap: butt; stroke-linejoin: miter; fill: #E8F2F8;' />
+<rect x='11.49' y='113.33' width='76.07' height='36.45' style='stroke-width: 1.17; stroke: #1B9E77; stroke-linecap: butt; stroke-linejoin: miter; fill: #EAF6EF;' />
+<rect x='121.66' y='17.13' width='76.07' height='36.45' style='stroke-width: 1.17; stroke: #1B7F79; stroke-linecap: butt; stroke-linejoin: miter; fill: #E9F5F3;' />
+<rect x='119.03' y='110.29' width='81.32' height='42.53' style='stroke-width: 1.17; stroke: #8B7EAF; stroke-linecap: butt; stroke-linejoin: miter; fill: #F1EDF7;' />
+<rect x='239.70' y='62.70' width='70.82' height='41.52' style='stroke-width: 1.17; stroke: #6C7A89; stroke-linecap: butt; stroke-linejoin: miter; fill: #F4F7FA;' />
+<rect x='339.37' y='62.70' width='70.82' height='41.52' style='stroke-width: 1.17; stroke: #6C7A89; stroke-linecap: butt; stroke-linejoin: miter; fill: #F4F7FA;' />
+<rect x='430.40' y='57.64' width='77.64' height='51.64' style='stroke-width: 1.17; stroke: #D55E00; stroke-linecap: butt; stroke-linejoin: miter; fill: #FBE9E4;' />
+<text x='49.52' y='30.76' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='21.91px' lengthAdjust='spacingAndGlyphs'>Stage 1</text>
+<text x='49.52' y='37.64' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='33.22px' lengthAdjust='spacingAndGlyphs'>OpenSAGE</text>
+<text x='49.52' y='44.53' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='17.85px' lengthAdjust='spacingAndGlyphs'>n = 46</text>
+<text x='49.52' y='126.96' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='21.91px' lengthAdjust='spacingAndGlyphs'>Stage 2</text>
+<text x='49.52' y='133.84' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='59.02px' lengthAdjust='spacingAndGlyphs'>matched comparison</text>
+<text x='49.52' y='140.73' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='17.85px' lengthAdjust='spacingAndGlyphs'>n = 80</text>
+<text x='159.69' y='34.20' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='43.47px' lengthAdjust='spacingAndGlyphs'>OpenSAGE set</text>
+<text x='159.69' y='41.08' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='17.85px' lengthAdjust='spacingAndGlyphs'>n = 56</text>
+<text x='159.69' y='126.96' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='46.29px' lengthAdjust='spacingAndGlyphs'>Comparative set</text>
+<text x='159.69' y='133.84' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='42.06px' lengthAdjust='spacingAndGlyphs'>10 OpenSAGE</text>
+<text x='159.69' y='140.73' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='41.18px' lengthAdjust='spacingAndGlyphs'>+ 70 baselines</text>
+<text x='275.11' y='82.30' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='21.20px' lengthAdjust='spacingAndGlyphs'>Blinded</text>
+<text x='275.11' y='89.18' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='27.91px' lengthAdjust='spacingAndGlyphs'>output set</text>
+<text x='374.79' y='82.30' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='18.37px' lengthAdjust='spacingAndGlyphs'>Expert</text>
+<text x='374.79' y='89.18' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='15.90px' lengthAdjust='spacingAndGlyphs'>rating</text>
+<text x='469.22' y='75.42' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='9.19px' lengthAdjust='spacingAndGlyphs'>CD</text>
+<text x='469.22' y='82.30' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='33.93px' lengthAdjust='spacingAndGlyphs'>adjudication</text>
+<text x='469.22' y='89.18' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='34.28px' lengthAdjust='spacingAndGlyphs'>91 reviewed</text>
+<text x='469.22' y='96.07' text-anchor='middle' style='font-size: 6.37px;fill: #1F2933; font-family: "Helvetica";' textLength='36.75px' lengthAdjust='spacingAndGlyphs'>69 confirmed</text>
+<rect x='129.79' y='190.80' width='75.55' height='43.54' style='stroke-width: 0.75; stroke: #C9D2DD; stroke-linecap: butt; stroke-linejoin: miter; fill: #EFF6FB;' />
+<rect x='218.97' y='190.80' width='75.55' height='43.54' style='stroke-width: 0.75; stroke: #C9D2DD; stroke-linecap: butt; stroke-linejoin: miter; fill: #EFF6FB;' />
+<rect x='308.16' y='190.80' width='75.55' height='43.54' style='stroke-width: 0.75; stroke: #C9D2DD; stroke-linecap: butt; stroke-linejoin: miter; fill: #EFF6FB;' />
+<rect x='397.35' y='190.80' width='75.55' height='43.54' style='stroke-width: 0.75; stroke: #C9D2DD; stroke-linecap: butt; stroke-linejoin: miter; fill: #FBE9E4;' />
+<text x='167.56' y='210.73' text-anchor='middle' style='font-size: 8.96px; font-weight: bold;fill: #1F2933; font-family: "Helvetica";' textLength='14.93px' lengthAdjust='spacingAndGlyphs'>126</text>
+<text x='256.75' y='210.73' text-anchor='middle' style='font-size: 8.96px; font-weight: bold;fill: #1F2933; font-family: "Helvetica";' textLength='22.38px' lengthAdjust='spacingAndGlyphs'>1,512</text>
+<text x='345.93' y='210.73' text-anchor='middle' style='font-size: 8.96px; font-weight: bold;fill: #1F2933; font-family: "Helvetica";' textLength='9.95px' lengthAdjust='spacingAndGlyphs'>12</text>
+<text x='435.12' y='210.73' text-anchor='middle' style='font-size: 8.96px; font-weight: bold;fill: #1F2933; font-family: "Helvetica";' textLength='9.95px' lengthAdjust='spacingAndGlyphs'>91</text>
+<text x='167.56' y='224.18' text-anchor='middle' style='font-size: 5.55px;fill: #667085; font-family: "Helvetica";' textLength='37.59px' lengthAdjust='spacingAndGlyphs'>blinded outputs</text>
+<text x='256.75' y='224.18' text-anchor='middle' style='font-size: 5.55px;fill: #667085; font-family: "Helvetica";' textLength='27.12px' lengthAdjust='spacingAndGlyphs'>raw ratings</text>
+<text x='345.93' y='224.18' text-anchor='middle' style='font-size: 5.55px;fill: #667085; font-family: "Helvetica";' textLength='42.00px' lengthAdjust='spacingAndGlyphs'>expert reviewers</text>
+<text x='435.12' y='224.18' text-anchor='middle' style='font-size: 5.55px;fill: #667085; font-family: "Helvetica";' textLength='32.35px' lengthAdjust='spacingAndGlyphs'>adjudications</text>
+</g>
+<g clip-path='url(#cpMC4wMHw1MTguNzR8MC4wMHwyNDkuNDU=)'>
+</g>
+</svg>

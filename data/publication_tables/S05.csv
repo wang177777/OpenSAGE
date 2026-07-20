@@ -1,0 +1,5 @@
+﻿Analysis set,Both positive (strict),At least one positive,At least one positive or indeterminate
+Stage 2 direct-generation comparators 70,61/70 (87.1%),64/70 (91.4%),66/70 (94.3%)
+OpenSAGE full 56,8/56 (14.3%),8/56 (14.3%),10/56 (17.9%)
+Stage 1 OpenSAGE 46,8/46 (17.4%),8/46 (17.4%),10/46 (21.7%)
+Stage 2 OpenSAGE 10,0/10 (0.0%),0/10 (0.0%),0/10 (0.0%)

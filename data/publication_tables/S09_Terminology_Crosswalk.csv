@@ -1,0 +1,7 @@
+﻿Public data term,Manuscript term,Interpretation
+final_DGQC_score,final DGQC score,Primary continuous endpoint reported for every output.
+expert_review_eligible,expert-review eligible draft,Final DGQC score >=70 and no expert-confirmed critical defect.
+expert_confirmed_CD,expert-confirmed critical defect,Safety endpoint confirmed through expert review.
+baseline system,direct-generation comparator system,"Comparator generated directly without the OpenSAGE retrieval, reflection, and provenance workflow."
+reviewer_mean_DGQC,reviewer-mean DGQC,Sensitivity endpoint calculated as the mean of 12 reviewer scores from the same expert-rating round.
+Stage 1 / Stage 2,Stage 1 / Stage 2,Analysis-subset labels within one blinded expert-rating round.

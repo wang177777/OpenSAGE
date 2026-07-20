@@ -1,0 +1,57 @@
+﻿No.,Disease,Phase,Disease_ID,Blinded_Output_ID,Scope_Class,Final_DGQC_Score,Expert_Confirmed_CD,Usable_Draft
+1,HIV,Stage 2,D03,D03-方案02,Broad,72.083333,no,yes
+2,Abortion Care,Stage 2,D01,D01-方案03,Narrow/defined,72.5,no,yes
+3,Infertility,Stage 2,D04,D04-方案06,Narrow/defined,74.097222,no,yes
+4,Mental Health Disorders,Stage 2,D08,D08-方案05,Broad,71.736111,no,yes
+5,Substance Use Disorders,Stage 2,D09,D09-方案08,Broad,66.805556,no,no
+6,Tuberculosis,Stage 2,D10,D10-方案07,Broad,72.5,no,yes
+7,Maternal Health,Stage 2,D06,D06-方案06,Broad,64.65277766666668,no,no
+8,COVID-19,Stage 2,D02,D02-方案05,Broad,74.722222,no,yes
+9,Meningitis,Stage 2,D07,D07-方案08,Narrow/defined,74.027778,no,yes
+10,Malaria,Stage 2,D05,D05-方案04,Narrow/defined,74.722222,no,yes
+11,STI,Stage 1,R1D37,G45_Sexually Transmitted Infections (STI).pdf,Broad,77.435417,no,yes
+12,Chikungunya,Stage 1,R1D06,G08_Chikungunya.pdf,Narrow/defined,80.145139,no,yes
+13,Dengue,Stage 1,R1D08,G10_Dengue.pdf,Narrow/defined,82.366319,no,yes
+14,Yellow Fever,Stage 1,R1D45,G55_Yello Fever.pdf,Narrow/defined,80.14,no,yes
+15,Zika,Stage 1,R1D46,G56_Zika.pdf,Narrow/defined,79.385417,no,yes
+16,Echinococcosis,Stage 1,R1D13,G15_Echinococcosis.pdf,Narrow/defined,80.172222,no,yes
+17,Mpox,Stage 1,R1D27,G35_Mpox.pdf,Narrow/defined,82.642014,no,yes
+18,Tungiasis,Stage 1,R1D44,G54_Tungiasis.pdf,Narrow/defined,65.259028,yes,no
+19,Dracunculiasis,Stage 1,R1D11,G13_Dracunculiasis.pdf,Narrow/defined,70.376042,no,yes
+20,Fascioliasis,Stage 1,R1D14,G16_Fascioliasis.pdf,Narrow/defined,60.773264,yes,no
+21,Pneumonia,Stage 1,R1D31,G39_Pneumonia.pdf,Narrow/defined,79.025694,no,yes
+22,Cardiovascular Disease,Stage 1,R1D05,G07_Cardiovascular Disease.pdf,Broad,57.675347,yes,no
+23,Influenza,Stage 1,R1D18,G22_Influenza.pdf,Narrow/defined,82.163194,no,yes
+24,Strongyloidiasis,Stage 1,R1D40,G48_Strongyloidiasis.pdf,Narrow/defined,74.796875,no,yes
+25,Trypanosomiasis,Stage 1,R1D43,G52_Trypanosomiasis.pdf,Narrow/defined,76.246181,no,yes
+26,Cancer,Stage 1,R1D04,G06_Cancer.pdf,Broad,58.831597,yes,no
+27,Hepatitis,Stage 1,R1D16,G19_Hepatitis.pdf,Broad,75.926042,no,yes
+28,Anaemia,Stage 1,R1D01,G02_Anaemia.pdf,Narrow/defined,72.473958,no,yes
+29,Diphtheria,Stage 1,R1D10,G12_Diphtheria.pdf,Narrow/defined,81.814931,no,yes
+30,Malnutrition,Stage 1,R1D24,G29_Malnutrition.pdf,Broad,76.731597,no,yes
+31,Low Back Pain,Stage 1,R1D23,G27_Low Back Pain.pdf,Narrow/defined,83.432292,no,yes
+32,Ebola,Stage 1,R1D12,G14_Ebola.pdf,Broad,80.290278,no,yes
+33,Marburg,Stage 1,R1D25,G30_Marbug.pdf,Broad,70.40,no,yes
+34,Obesity,Stage 1,R1D29,G37_Obesity.pdf,Broad,74.943403,no,yes
+35,Leishmaniasis,Stage 1,R1D20,G24_Leishmaniasis.pdf,Narrow/defined,74.194097,no,yes
+36,Rubella,Stage 1,R1D34,G42_Rubella.pdf,Broad,70.427431,no,yes
+37,Hypertension,Stage 1,R1D17,G20_Hypertension.pdf,Narrow/defined,82.078125,no,yes
+38,Schistosomiasis,Stage 1,R1D36,G44_Schistosomiasis.pdf,Broad,79.904861,no,yes
+39,Taeniasis/Cysticercosis,Stage 1,R1D41,G50_Taeniosis_Cysticercosis.pdf,Broad,79.57,no,yes
+40,Poisoning,Stage 1,R1D32,G40_Poisoning.pdf,Broad,62.387153,yes,no
+41,Measles,Stage 1,R1D26,G32_Measle.pdf,Narrow/defined,70.40,no,yes
+42,Leprosy,Stage 1,R1D21,G25_Leprosy.pdf,Narrow/defined,79.420833,no,yes
+43,Newborn/Neonatal Health,Stage 1,R1D28,G36_Newborn_Neonatal Health.pdf,Broad,70.58,no,yes
+44,Filariasis,Stage 1,R1D15,G17_Filariasis.pdf,Narrow/defined,70.564931,no,yes
+45,Child Health (IMCI),Stage 1,R1D07,G09_Child Health (IMCI).pdf,Broad,72.835069,no,yes
+46,Snake Bite,Stage 1,R1D39,G47_Snake Bite.pdf,Narrow/defined,70.092014,no,yes
+47,Onchocerciasis,Stage 1,R1D30,G38_Onchocerciasis.pdf,Narrow/defined,70.335069,no,yes
+48,Trachoma,Stage 1,R1D42,G51_Trachoma.pdf,Broad,68.988194,no,no
+49,Injury,Stage 1,R1D19,G23_Injury.pdf,Broad,54.247569,yes,no
+50,Shigellosis,Stage 1,R1D38,G46_Shigellosis.pdf,Narrow/defined,75.478125,no,yes
+51,SARS,Stage 1,R1D35,G43_SARS.pdf,Narrow/defined,59.256944,no,no
+52,Loa Loa,Stage 1,R1D22,G26_Loa Loa.pdf,Narrow/defined,60.106597,no,no
+53,Polio,Stage 1,R1D33,G41_Polio.pdf,Broad,72.088542,no,yes
+54,Anthrax,Stage 1,R1D02,G03_Anthrax.pdf,Narrow/defined,76.810069,no,yes
+55,Burns,Stage 1,R1D03,G04_Burns.pdf,Broad,62.383681,yes,no
+56,Diabetes,Stage 1,R1D09,G11_Diabetes.pdf,Broad,64.05,yes,no
