@@ -1,4 +1,4 @@
-﻿Set,n,Mean DGQC,Median DGQC,IQR,Expert-confirmed CD,Usable draft,Near-threshold non-defective,High-quality draft
+﻿Set,n,Mean final DGQC score,Median final DGQC score,IQR,Expert-confirmed CD,Usable draft,Near-threshold non-defective,High-quality draft
 OpenSAGE full 56,56,72.63,73.43,70.27-79.12,8/56,43/56,4/56,0/56
 Stage 1 OpenSAGE 46,46,72.82,74.5,70.15-79.54,8/46,35/46,2/46,0/46
 Stage 2 OpenSAGE 10,10,71.78,72.5,71.82-74.08,0/10,8/10,2/10,0/10

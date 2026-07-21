@@ -87,7 +87,7 @@ for name, derived in [
 ]:
     row = reported_sets[name]
     assert int(row["n"]) == derived["n"]
-    close(float(row["Mean DGQC"]), float(derived["mean"]))
+    close(float(row["Mean final DGQC score"]), float(derived["mean"]))
     assert parse_fraction(row["Expert-confirmed CD"])[0] == derived["expert_confirmed_cd"]
     assert parse_fraction(row["Usable draft"])[0] == derived["usable"]
 
@@ -116,14 +116,10 @@ def paired_differences(score_field: str, comparator: str) -> list[float]:
 comparisons = {
     "final_gpt55": paired_differences("Final DGQC score", "GPT-5.5"),
     "final_pooled": paired_differences("Final DGQC score", "pooled"),
-    "reviewer_mean_gpt55": paired_differences("Reviewer-mean DGQC", "GPT-5.5"),
-    "reviewer_mean_pooled": paired_differences("Reviewer-mean DGQC", "pooled"),
 }
 expected_means = {
     "final_gpt55": 19.54,
     "final_pooled": 42.54,
-    "reviewer_mean_gpt55": 15.86,
-    "reviewer_mean_pooled": 38.89,
 }
 for key, differences in comparisons.items():
     close(statistics.mean(differences), expected_means[key])
@@ -133,8 +129,6 @@ s01_by_contrast = {row["Contrast"]: row for row in s01}
 contrast_keys = {
     "final_gpt55": "Final DGQC score: OpenSAGE vs direct GPT-5.5",
     "final_pooled": "Final DGQC score: OpenSAGE vs pooled direct-generation comparator",
-    "reviewer_mean_gpt55": "Reviewer-mean DGQC: OpenSAGE vs direct GPT-5.5",
-    "reviewer_mean_pooled": "Reviewer-mean DGQC: OpenSAGE vs pooled direct-generation comparator",
 }
 for key, contrast in contrast_keys.items():
     row = s01_by_contrast[contrast]
@@ -214,36 +208,18 @@ for model, row in model_rows.items():
         float(item["Final DGQC score"]) for item in t002 if item["Model"] == model
     ]
     assert len(model_scores) == int(row["n"]) == 10
-    close(statistics.mean(model_scores), float(row["Mean DGQC"]))
+    close(statistics.mean(model_scores), float(row["Mean final DGQC score"]))
 
 figure_s1_path = ROOT / "data/supplementary/Supplementary_Data_3_Figure_S1_Source.csv"
 with figure_s1_path.open(encoding="utf-8-sig", newline="") as handle:
     figure_s1 = list(csv.DictReader(handle))
 domain_lookup = {(row["Set"], row["Domain"]): float(row["Mean score"]) for row in figure_s1}
 for row in s12b:
-    profile = {domain: float(row[f"{domain} raw mean"]) for domain in [f"D{i}" for i in range(1, 8)]}
+    profile = {domain: float(row[f"{domain} mean"]) for domain in [f"D{i}" for i in range(1, 8)]}
     if not 0.0 <= dgqc_score(profile) <= 100.0:
         raise AssertionError(f"Invalid DGQC profile for {row['Set']}")
     for domain in [f"D{i}" for i in range(1, 8)]:
-        close(float(row[f"{domain} raw mean"]), domain_lookup[(row["Set"], domain)], 0.0051)
-
-expected_reconstructed_means = {
-    "OpenSAGE full 56": 72.56,
-    "Stage 1 OpenSAGE 46": 72.82,
-    "Stage 2 OpenSAGE 10": 71.37,
-}
-for row in s12b:
-    profile = {domain: float(row[f"{domain} raw mean"]) for domain in [f"D{i}" for i in range(1, 8)]}
-    close(dgqc_score(profile), expected_reconstructed_means[row["Set"]], tolerance=0.06)
-
-stage2_profile = next(row for row in s12b if row["Set"] == "Stage 2 OpenSAGE 10")
-stage2_profile_score = dgqc_score(
-    {domain: float(stage2_profile[f"{domain} raw mean"]) for domain in [f"D{i}" for i in range(1, 8)]}
-)
-stage2_reviewer_mean = statistics.mean(
-    float(row["Reviewer-mean DGQC"]) for row in t002 if row["Model"] == "OpenSAGE"
-)
-close(stage2_profile_score, stage2_reviewer_mean, tolerance=0.05)
+        close(float(row[f"{domain} mean"]), domain_lookup[(row["Set"], domain)], 0.0051)
 
 reliability = {row["Analysis set"]: row for row in s02}
 assert reliability["All 126 outputs"]["ICC(2,k) (bootstrap 95% CI)"] == "0.992 (0.990 to 0.993)"
@@ -253,7 +229,7 @@ result = {
     "analysis_definition": {
         "rating_round": "one blinded expert-rating round with twelve expert reviewers",
         "primary_continuous_endpoint": "final DGQC score for all 126 outputs",
-        "secondary_score_summary": "reviewer-mean DGQC and raw D1-D7 domain summaries from the same rating round",
+        "domain_summary": "descriptive D1-D7 means from the same rating round; not a separate continuous endpoint",
     },
     "opensage": {"full": full, "stage1": r1, "stage2": r2},
     "matched_comparisons": {

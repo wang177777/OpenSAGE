@@ -1,4 +1,4 @@
-﻿Model,n,Mean DGQC,Median DGQC,Expert-confirmed CD,Usable,Near-threshold,Mean rank,First-rank count,Last-rank count
+﻿Model,n,Mean final DGQC score,Median final DGQC score,Expert-confirmed CD,Usable,Near-threshold,Mean rank,First-rank count,Last-rank count
 OpenSAGE,10,71.78,72.5,0/10,8/10,2/10,1.0,10,0
 GPT-5.5,10,52.24,50.76,2/10,0/10,4/10,2.1,0,0
 Claude-Opus-4.7,10,36.81,34.58,9/10,0/10,0/10,3.1,0,0

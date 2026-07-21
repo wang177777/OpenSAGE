@@ -1,6 +1,6 @@
 # Direct-generation systems
 
-The reported matched analysis comprises seven direct-generation systems across ten diseases. Their model labels, blinded output identifiers, final DGQC scores, and reviewer-mean DGQC scores are reported in `data/publication_tables/T002_Matched_80.csv`.
+The reported matched analysis comprises seven direct-generation systems across ten diseases. Their model labels, blinded output identifiers, final DGQC scores, and expert-confirmed critical-defect status are reported in `data/publication_tables/T002_Matched_80.csv`.
 
 `baseline.py` runs a user-supplied directory of Markdown task files against an OpenAI-compatible endpoint selected with `--model` (or `BASELINE_MODEL`). Endpoint credentials are supplied through an environment variable and are never stored in the repository.
 

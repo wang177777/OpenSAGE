@@ -177,9 +177,9 @@ def generate_supplementary_figure_s1() -> None:
     for name, color, marker in zip(sets, [BLUE, GRAY, ORANGE], ["o", "s", "^"]):
         ax.plot(domains, [lookup[(name, domain)] for domain in domains], marker=marker, color=color, label=name)
     ax.set_ylim(1, 7)
-    ax.set_ylabel("Mean raw D1-D7 rating")
+    ax.set_ylabel("Mean D1-D7 rating")
     ax.set_xlabel("DGQC domain")
-    ax.set_title("OpenSAGE raw domain profile from the common expert-rating round", loc="left", fontweight="bold")
+    ax.set_title("OpenSAGE mean domain profile from the common expert-rating round", loc="left", fontweight="bold")
     ax.legend(frameon=False, fontsize=8)
     fig.tight_layout()
 
@@ -190,16 +190,16 @@ def generate_supplementary_figure_s1() -> None:
         svg_path,
         bbox_inches="tight",
         facecolor="white",
-        metadata={"Creator": "OpenSAGE public figure generator", "Date": "2026-07-20"},
+        metadata={"Creator": "OpenSAGE public figure generator", "Date": "2026-07-21"},
     )
     normalize_svg(svg_path)
-    fixed_time = datetime(2026, 7, 20, tzinfo=timezone.utc)
+    fixed_time = datetime(2026, 7, 21, tzinfo=timezone.utc)
     fig.savefig(
         SUPPLEMENTARY_FIGURES / "Supplementary_Figure_S1.pdf",
         bbox_inches="tight",
         facecolor="white",
         metadata={
-            "Title": "Supplementary Figure S1: OpenSAGE raw domain profile",
+            "Title": "Supplementary Figure S1: OpenSAGE mean domain profile",
             "Author": "OpenSAGE study group",
             "Creator": "OpenSAGE public figure generator",
             "CreationDate": fixed_time,

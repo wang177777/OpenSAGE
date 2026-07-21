@@ -1,11 +1,11 @@
-﻿Disease,OpenSAGE reviewer-mean DGQC,Pooled comparator reviewer-mean DGQC,Reviewer-mean difference
-Abortion Care,71.11,34.35,36.77
-COVID-19,74.72,32.75,41.97
-HIV,72.08,31.50,40.59
-Infertility,74.10,26.73,47.37
-Malaria,74.72,30.73,43.99
-Maternal Health,64.65,32.11,32.54
-Meningitis,74.03,30.80,43.22
-Mental Health Disorders,71.74,33.96,37.78
-Substance Use Disorders,66.81,34.46,32.34
-Tuberculosis,69.72,37.40,32.32
+﻿Disease,OpenSAGE final DGQC score,Pooled comparator final DGQC score,Final DGQC score difference
+Abortion Care,72.50,33.55,38.95
+COVID-19,74.72,27.80,46.92
+HIV,72.08,28.80,43.28
+Infertility,74.10,23.96,50.14
+Malaria,74.72,28.76,45.96
+Maternal Health,64.65,30.00,34.65
+Meningitis,74.03,25.62,48.41
+Mental Health Disorders,71.74,28.87,42.87
+Substance Use Disorders,66.81,32.45,34.36
+Tuberculosis,72.50,32.63,39.87

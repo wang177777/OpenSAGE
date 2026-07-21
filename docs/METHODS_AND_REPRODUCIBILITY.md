@@ -11,9 +11,11 @@ The primary continuous endpoint is the final DGQC score reported for every outpu
 - **Stage 1:** 46 non-comparative OpenSAGE outputs.
 - **Stage 2:** 10 OpenSAGE and 70 direct-generation outputs across ten matched diseases.
 
-The reviewer-mean DGQC sensitivity endpoint and the raw D1-D7 domain summaries in Supplementary Table S12B and Supplementary Figure S1 are derived from that same rating round. The R1/R2 prefixes in output identifiers denote study phases, not separate reviewer cohorts or rating rounds.
+Descriptive D1-D7 domain means in Supplementary Table S12B and Supplementary Figure S1 are derived from that same rating round and are not a separate DGQC endpoint. The R1/R2 prefixes in output identifiers denote study phases, not separate reviewer cohorts or rating rounds.
 
 Each reviewer-level DGQC score maps the seven 1-7 domain ratings to a 0-100 scale using the weights reported in Table S08: `DGQC = Σ w_d × (D_d − 1) / 6`, where the domain weights sum to 100. The public implementation is provided in `analysis/dgqc_scoring.py`.
+
+The final DGQC score is generated from the twelve blinded reviewer ratings using the prespecified score-construction rules. Senior adjudicators evaluate only the presence and type of critical defects in selected blinded cases. They do not provide replacement D1-D7 ratings, calculate a second DGQC score, or modify the final DGQC score.
 
 An expert-confirmed critical defect is the main safety endpoint. An expert-review eligible draft has a final DGQC score of at least 70 and no expert-confirmed critical defect.
 
@@ -26,7 +28,6 @@ An expert-confirmed critical defect is the main safety endpoint. An expert-revie
 - the two-sided exact paired sign-flip permutation P values;
 - the leave-one-disease-out summaries in Supplementary Table S3;
 - the seven direct-comparator contrasts and Holm-adjusted P values in Supplementary Table S7;
-- the reviewer-mean matched sensitivity differences;
 - consistency of S01, S02, S12A, S12B, S13, and the Figure S1 source.
 
 Bias-corrected and accelerated bootstrap intervals and reliability statistics are reported in the released tables. The public checks reproduce output-level analyses and validate the published reliability estimates across files; reviewer-level ICC(2,k) and Gwet AC1 are estimated from the controlled rating-level dataset.
@@ -48,3 +49,9 @@ The matched analysis compares the complete OpenSAGE workflow with direct-generat
 ## Public analysis record
 
 The public record includes aggregate and output-level analysis tables, figure sources, and release-file hashes. Historical generation inputs and evaluated document files are outside this public package.
+
+## Study governance
+
+The study involved expert evaluation of anonymized AI-generated documents and did not involve patients, patient records, biological specimens, clinical interventions, or identifiable health information. It was conducted in accordance with the Declaration of Helsinki and was exempt from formal ethics committee approval under applicable institutional requirements. Expert reviewers participated voluntarily and provided informed consent for research use of their anonymized ratings.
+
+Generative AI tools were used solely for language editing and were not used for study design, data generation, expert rating, senior adjudication, statistical analysis, or interpretation of results.

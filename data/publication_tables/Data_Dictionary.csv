@@ -3,12 +3,11 @@ output_level_126,output_id,Unique study output identifier.,Released in T001 and 
 output_level_126,phase,R1 non-comparative OpenSAGE or R2 matched comparison analysis subset.,Released in T001 and T002.
 output_level_126,blinded_output_id,Identifier presented in the blinded review package.,Released in T001 and T002.
 output_level_126,true_model,Model/workflow identity linked to the blinded output after scoring.,Released for the Stage 2 matched comparison in T002.
-output_level_126,reviewer_mean_DGQC,Mean weighted DGQC score calculated from the 12 reviewer ratings in the common expert-rating round.,Released for the Stage 2 matched comparison in T002; Stage 1 reviewer-level source data remain controlled.
 output_level_126,final_DGQC_score,Primary continuous endpoint reported for all Stage 1 and Stage 2 outputs from the common expert-rating round.,Released in T001 and T002.
 output_level_126,expert_confirmed_CD,Strict dual-expert-confirmed critical-defect status.,Released in T001 and T002.
 output_level_126,expert_review_eligible,Final DGQC score >=70 and no expert-confirmed critical defect.,Released in T001 and T002.
 rating_level_1512,rater_id,Anonymized reviewer identifier; identifiers and rating-level records are not released in the public dataset.,Definition only; source dataset is controlled and is not released in this public repository.
 rating_level_1512,any_CD_raw,Reviewer-level potential critical-defect rating coded yes/no.,Definition only; source dataset is controlled and is not released in this public repository.
-rating_level_1512,DGQC_raw,Reviewer-level weighted score.,Definition only; source dataset is controlled and is not released in this public repository.
-rating_level_1512,D1_raw-D7_raw,Reviewer-level D1-D7 ratings from the common expert-rating round.,Definition only; source dataset is controlled and is not released in this public repository.
-raw_domain_summary,D1_raw-D7_raw,Mean D1-D7 ratings for Stage 1 and Stage 2 analysis subsets from the same expert-rating round.,Aggregate means released in S12B and Supplementary Data 3; rating-level records remain controlled.
+rating_level_1512,reviewer_DGQC_score,Reviewer-level weighted DGQC score from the common expert-rating round.,Definition only; source dataset is controlled and is not released in this public repository.
+rating_level_1512,D1-D7_ratings,Reviewer-level D1-D7 ratings from the common expert-rating round.,Definition only; source dataset is controlled and is not released in this public repository.
+domain_summary,D1-D7_ratings,Reviewer-level D1-D7 ratings from the common expert-rating round.,Aggregate means released in S12B and Supplementary Data 3; rating-level records remain controlled.

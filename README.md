@@ -16,7 +16,9 @@ OpenSAGE drafts are study outputs intended for expert review. The study was cond
 The study comprises 1,512 blinded ratings from twelve expert reviewers in one expert-rating round. Stage 1 and Stage 2 identify analysis subsets rather than separate rating rounds:
 
 1. **Primary continuous endpoint:** the final DGQC score is reported for all 126 outputs.
-2. **Reviewer-mean and raw-domain summaries:** the reviewer-mean DGQC sensitivity endpoint and D1-D7 domain summaries are derived from the same expert-rating round.
+2. **Domain summaries:** descriptive D1-D7 domain means are derived from the same expert-rating round and are not a separate DGQC endpoint.
+
+The final DGQC score is generated from the twelve blinded reviewer ratings using the prespecified score-construction rules. Senior adjudicators determine only the presence and type of critical defects; they do not provide replacement D1-D7 ratings or modify final DGQC scores.
 
 See `docs/METHODS_AND_REPRODUCIBILITY.md` and `docs/DATA_DICTIONARY.md` for the analysis sets and field definitions.
 
