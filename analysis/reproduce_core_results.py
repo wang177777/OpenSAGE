@@ -47,6 +47,8 @@ t001 = read_csv("T001_56_Disease_List.csv")
 t002 = read_csv("T002_Matched_80.csv")
 s01 = read_csv("S01.csv")
 s02 = read_csv("S02.csv")
+s03 = read_csv("S03.csv")
+s07 = read_csv("S07.csv")
 s12a = read_csv("S12A.csv")
 s12b = read_csv("S12B.csv")
 s13 = read_csv("S13.csv")
@@ -138,6 +140,73 @@ for key, contrast in contrast_keys.items():
     row = s01_by_contrast[contrast]
     close(float(row["Mean difference"]), statistics.mean(comparisons[key]))
     close(float(row["Exact paired permutation P"]), exact_sign_flip_p(comparisons[key]), 0.00001)
+
+
+# Supplementary Table S3: leave-one-disease-out pooled-comparator sensitivity analysis.
+diseases = sorted(by_disease)
+pooled_by_disease = dict(zip(diseases, comparisons["final_pooled"]))
+expected_s03_intervals = {
+    "Abortion Care": "39.07 to 46.09",
+    "COVID-19": "38.55 to 45.44",
+    "HIV": "38.73 to 45.91",
+    "Infertility": "38.37 to 44.64",
+    "Malaria": "38.59 to 45.58",
+    "Maternal Health": "40.00 to 46.24",
+    "Meningitis": "38.48 to 45.15",
+    "Mental Health Disorders": "38.75 to 45.92",
+    "Substance Use Disorders": "40.11 to 46.25",
+    "Tuberculosis": "38.94 to 46.05",
+}
+assert len(s03) == len(diseases) == 10
+assert {row["Omitted disease"] for row in s03} == set(diseases)
+for row in s03:
+    omitted = row["Omitted disease"]
+    differences = [value for disease, value in pooled_by_disease.items() if disease != omitted]
+    assert int(row["n diseases"]) == len(differences) == 9
+    close(float(row["Mean difference"]), statistics.mean(differences))
+    close(float(row["Exact paired permutation P"]), exact_sign_flip_p(differences), 0.00001)
+    assert row["BCa 95% CI"] == expected_s03_intervals[omitted]
+
+
+# Supplementary Table S7: seven direct-comparator contrasts and their Holm family.
+s07_comparators = {
+    "OpenSAGE vs Claude-Opus-4.7": "Claude-Opus-4.7",
+    "OpenSAGE vs Deepseek-v4": "Deepseek-v4",
+    "OpenSAGE vs Doubao-2.0-Pro": "Doubao-2.0-Pro",
+    "OpenSAGE vs Gemini-3.1-Pro": "Gemini-3.1-Pro",
+    "OpenSAGE vs GLM-5.1": "GLM-5.1",
+    "OpenSAGE vs direct GPT-5.5": "GPT-5.5",
+    "OpenSAGE vs Qwen-3.6-Plus": "Qwen-3.6-Plus",
+}
+expected_s07_intervals = {
+    "OpenSAGE vs Claude-Opus-4.7": "28.44 to 38.62",
+    "OpenSAGE vs Deepseek-v4": "43.90 to 49.34",
+    "OpenSAGE vs Doubao-2.0-Pro": "53.77 to 59.57",
+    "OpenSAGE vs Gemini-3.1-Pro": "38.72 to 46.00",
+    "OpenSAGE vs GLM-5.1": "40.28 to 45.86",
+    "OpenSAGE vs direct GPT-5.5": "11.08 to 28.55",
+    "OpenSAGE vs Qwen-3.6-Plus": "47.21 to 56.98",
+}
+assert len(s07) == len(s07_comparators) == 7
+assert {row["Comparison"] for row in s07} == set(s07_comparators)
+raw_p_values = []
+for row in s07:
+    differences = paired_differences("Final DGQC score", s07_comparators[row["Comparison"]])
+    assert int(row["n diseases"]) == len(differences) == 10
+    close(float(row["Mean difference"]), statistics.mean(differences))
+    raw_p = exact_sign_flip_p(differences)
+    close(float(row["Exact paired permutation P"]), raw_p, 0.00001)
+    assert row["BCa 95% CI"] == expected_s07_intervals[row["Comparison"]]
+    raw_p_values.append(raw_p)
+
+ordered = sorted(enumerate(raw_p_values), key=lambda item: item[1])
+holm_adjusted = [0.0] * len(raw_p_values)
+running_max = 0.0
+for rank, (index, p_value) in enumerate(ordered):
+    running_max = max(running_max, min(1.0, (len(raw_p_values) - rank) * p_value))
+    holm_adjusted[index] = running_max
+for row, adjusted in zip(s07, holm_adjusted):
+    close(float(row["Holm-adjusted P"]), adjusted, 0.00001)
 
 model_rows = {row["Model"]: row for row in s13}
 for model, row in model_rows.items():

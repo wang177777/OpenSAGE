@@ -24,6 +24,8 @@ An expert-confirmed critical defect is the main safety endpoint. An expert-revie
 - the OpenSAGE full-set, Stage 1, and Stage 2 descriptive summaries;
 - disease-level OpenSAGE-minus-pooled-baseline and OpenSAGE-minus-GPT-5.5 differences;
 - the two-sided exact paired sign-flip permutation P values;
+- the leave-one-disease-out summaries in Supplementary Table S3;
+- the seven direct-comparator contrasts and Holm-adjusted P values in Supplementary Table S7;
 - the reviewer-mean matched sensitivity differences;
 - consistency of S01, S02, S12A, S12B, S13, and the Figure S1 source.
 
@@ -31,7 +33,7 @@ Bias-corrected and accelerated bootstrap intervals and reliability statistics ar
 
 ## Reliability record
 
-The 20 July 2026 release reports:
+The current public release reports:
 
 - Stage 1 OpenSAGE 46: ICC(2,k) 0.952 (95% CI 0.928-0.966); Gwet AC1 0.799 (0.712-0.874).
 - Stage 2 comparative 80: ICC(2,k) 0.985 (0.979-0.989); Gwet AC1 0.898 (0.838-0.946).

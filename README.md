@@ -23,7 +23,7 @@ See `docs/METHODS_AND_REPRODUCIBILITY.md` and `docs/DATA_DICTIONARY.md` for the 
 ## Repository map
 
 - `backend/`, `frontend/`: runnable reference application.
-- `data/supplementary/`: Supplementary Data 1-3 for the 20 July 2026 public release.
+- `data/supplementary/`: Supplementary Data 1-3 for the 21 July 2026 public release.
 - `data/publication_tables/`: CSV exports of Tables T001-T002 and S01-S14.
 - `data/manifests/`: release-file hashes.
 - `analysis/`: public numerical checks, release validation, and submitted data-figure generation code.

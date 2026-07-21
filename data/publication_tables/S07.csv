@@ -1,9 +1,8 @@
-﻿Comparison,n pairs,Mean difference,BCa 95% CI,Exact paired permutation P,Holm-adjusted P
+﻿Comparison,n diseases,Mean difference,BCa 95% CI,Exact paired permutation P,Holm-adjusted P
 OpenSAGE vs Claude-Opus-4.7,10,34.98,28.44 to 38.62,0.00195,0.01367
 OpenSAGE vs Deepseek-v4,10,46.74,43.90 to 49.34,0.00195,0.01367
 OpenSAGE vs Doubao-2.0-Pro,10,57.38,53.77 to 59.57,0.00195,0.01367
 OpenSAGE vs Gemini-3.1-Pro,10,42.67,38.72 to 46.00,0.00195,0.01367
-OpenSAGE vs GLM-5.1,10,43.30,39.01 to 47.00,0.00195,0.01367
-OpenSAGE vs GPT-5.5,10,19.54,11.08 to 28.55,0.00195,0.01367
-OpenSAGE vs Qwen-3.6-Plus,10,53.15,49.05 to 56.91,0.00195,0.01367
-OpenSAGE vs pooled direct-generation comparator,10,42.54,39.13 to 45.61,0.00195,0.01367
+OpenSAGE vs GLM-5.1,10,43.31,40.28 to 45.86,0.00195,0.01367
+OpenSAGE vs direct GPT-5.5,10,19.54,11.08 to 28.55,0.00195,0.01367
+OpenSAGE vs Qwen-3.6-Plus,10,53.16,47.21 to 56.98,0.00195,0.01367
